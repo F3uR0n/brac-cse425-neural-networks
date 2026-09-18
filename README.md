@@ -34,86 +34,6 @@ The lecture note set spans 11 numbered modules, organized across mid and final h
 
 ---
 
-## Assignments
-
-| Assignment | Submission File | Description |
-|------------|----------------|-------------|
-| A1 & A2 | `24101406_1.pdf`, `24101406_2.pdf` | Neural network theory and problem-solving assignments |
-| A3 | `24101406_3.pdf` | Written assignment with supporting figures (`A3.1.png`, `A3.2.png`) |
-
----
-
-## Assessments
-
-### Quizzes (Current Semester)
-
-| Quiz | Instructor | Files |
-|------|-----------|-------|
-| Quiz 1 | MMM | Question image |
-| Quiz 2 | MMM | Question + two solution documents |
-| Computational Graph Quiz | — | Question image |
-| Batch Normalization Quiz | — | Question image |
-| Quiz 1 & 2 | RRH | Combined PDF |
-
-### Practice Problem Sets
-
-| Scope | Problems |
-|-------|----------|
-| Mid | Computation Graph (Basic & 20-example sets), XOR Problem Solution, Practice Sheets (MMM, RRH, Combined-100) |
-| Final | CNN Math Problems, CNN Backprop Matrix, Attention & Transformer Math Problems, AE/VAE/LSTM Math Problems, Transformer PS, VAE Autoencoder |
-
-### Past Quiz Papers (Reference)
-
-- Fall 2025: Quiz 03, Quiz 04, Quiz Make-Up
-- Spring 2026: Quiz 01, Quiz 03, Quiz 04, Quiz 05 / Make-Up 06
-
----
-
-## Paper Writing
-
-| File | Description |
-|------|-------------|
-| `Paper.pdf` | Reference research paper |
-| `24101406_04_Paper Review.pdf` | Student paper review submission |
-
----
-
-## Project
-
-Project documentation for the Spring 2026 offering (foundational reference):
-
-| File | Description |
-|------|-------------|
-| `Spring26 Project Details of Neural Network.pdf` | Full project specification and requirements |
-| `Spring26 project Supplementary Implementation Guide.pdf` | Step-by-step implementation guidance |
-
----
-
-## Reference Books
-
-| Book | Author(s) |
-|------|-----------|
-| Neural Network Design | Martin T. Hagan |
-| Neural Networks: A Comprehensive Foundation | Simon S. Haykin |
-| Neural Networks and Deep Learning | Michael Nielsen |
-| Neural Networks from Scratch in Python | Harrison Kinsley, Daniel Kukieła |
-| The Deep Learning Book | Ian Goodfellow, Yoshua Bengio |
-| Understanding Deep Learning | Simon J.D. Prince |
-
----
-
-## Hand Notes
-
-| File | Topic |
-|------|-------|
-| `AE, VAE, KL Divergence.pdf` | Handwritten notes on Autoencoders, VAE, and KL Divergence |
-| `CNN.pdf` | Handwritten CNN notes |
-| `Transformers, Word Embedding, Attention.pdf` | Handwritten notes on Attention and Transformers |
-| `LSTM.png` | LSTM architecture diagram |
-| `CSE425.pdf` | General course hand notes |
-
----
-
 ## Repository Structure
 
 ```
@@ -142,9 +62,9 @@ CSE425/
 │   └── Lecture PDF [RRH]/              # Instructor RRH's lecture note set (40 files)
 │
 ├── Slides/
-│   ├── Mid/                            # Mid-semester slide set (40 files)
-│   └── Final/                          # Final-semester slide set (24 files)
-│   └── Extra/                          # Supplementary slides (18 files)
+│   ├── Mid/
+│   └── Final/
+│   └── Extra/
 │
 ├── Questions/
 │   ├── Practice Sheet/                 # Mid and final practice problem sets (16 files)
@@ -168,15 +88,5 @@ CSE425/
 ├── Discussion.pdf
 ├── Spring2026 Lecture Plan.pdf
 └── README.md
-```
-
----
-
-## Technologies
-
-- **Language:** Python 3
-- **Primary Format:** PDF (lecture notes, slides, problem sets, assignments)
-- **Slide Formats:** PDF, PPTX
-- **Note Formats:** PDF, PNG (handwritten and typed)
 
 ---
